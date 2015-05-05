@@ -1,0 +1,8 @@
+{
+  "name": "dgcv",
+  "private": true,
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "semantic": "~1.12.1"
+  }
+}
