@@ -4,33 +4,40 @@
 $color1: #555;
 $color2: #3646fe;
 $color3: #ccc;
-
 body {
-	overflow: hidden
+    overflow: hidden
 }
 
-.grid {
+section {
     height: 100%;
-    &.hidden {
-        display: none;
-    }
-}
-
-.column {
-	height: 110%;
-	text-align: center;
-	padding-top: 100px; 
-    &.profile {
-        background-color: $color1;
-    }
+    float: left;
+    text-align: center;
+    padding: 10%;
     &.designer {
         background-color: $color2;
     }
     &.dev {
         background-color: $color3;
+        position: absolute;
+        left: 50%;
+        &.full {
+            left: 0;
+        }
     }
-    &.full-width {
-        width: 100% !important;
-        @include transition(width 0.5s ease); 
+    &.half {
+        width: 50%;
     }
+    &.full {
+        width: 100%;
+    }
+    .hidden {
+        display: none;
+    }
+}
+
+.animated {
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
 }
