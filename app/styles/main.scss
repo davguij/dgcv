@@ -13,12 +13,12 @@ section {
     float: left;
     text-align: center;
     padding: 10%;
+    position: absolute;
     &.designer {
         background-color: $color2;
     }
     &.dev {
         background-color: $color3;
-        position: absolute;
         left: 50%;
         &.full {
             left: 0;
@@ -26,18 +26,20 @@ section {
     }
     &.half {
         width: 50%;
+        z-index: 1; 
     }
     &.full {
         width: 100%;
+        z-index: 999; 
     }
     .hidden {
-        display: none;
+        visibility: hidden;
     }
 }
 
 .animated {
-    -webkit-transition: all 0.25s ease;
-    -moz-transition: all 0.25s ease;
-    -o-transition: all 0.25s ease;
-    transition: all 0.25s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
