@@ -1,11 +1,19 @@
 // bower:scss
 // endbower
 // colores
+
 $color1: #555;
 $color2: #3646fe;
 $color3: #ccc;
 body {
-    overflow: hidden
+    overflow: hidden;
+    font-family: 'Cantarell', sans-serif; 
+}
+
+h2 {
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: uppercase;
+    font-size: 5rem; 
 }
 
 section {

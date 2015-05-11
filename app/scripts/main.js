@@ -2,6 +2,6 @@
 (function() {
 	$("section").click(function() {
 		$(this).toggleClass('full');
-		$(this).children().transition('fly down');
+		$(this).children('.toggleable').transition('fade');
 	});
 })();

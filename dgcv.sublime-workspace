@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"fu",
+				"full-width"
+			],
+			[
 				"direc",
 				"direccion_inicial"
 			],
@@ -510,30 +514,46 @@
 			[
 				"scrol",
 				"scrollTop"
-			],
-			[
-				"rowsp",
-				"rowspan-heading"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "app/index.html",
-			"settings":
-			{
-				"buffer_size": 1998,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 210.0,
+		"height": 375.0,
 		"selected_items":
 		[
+			[
+				"wr",
+				"Emmet: Wrap With Abbreviation"
+			],
+			[
+				"wra",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"pre",
+				"HTMLPrettify"
+			],
+			[
+				"pret",
+				"HTMLPrettify"
+			],
+			[
+				"to",
+				"Toggle Comment"
+			],
+			[
+				"w",
+				"HTML: Wrap Selection With Tag"
+			],
 			[
 				"prety",
 				"HTMLPrettify"
@@ -543,20 +563,8 @@
 				"Toggle Comment"
 			],
 			[
-				"to",
-				"Toggle Comment"
-			],
-			[
 				"wrap",
 				"HTML: Wrap Selection With Tag"
-			],
-			[
-				"pre",
-				"HTMLPrettify"
-			],
-			[
-				"pret",
-				"HTMLPrettify"
 			],
 			[
 				"t",
@@ -577,14 +585,6 @@
 			[
 				"insta",
 				"Package Control: Install Package"
-			],
-			[
-				"rein",
-				"Indentation: Reindent Lines"
-			],
-			[
-				"wra",
-				"HTML: Wrap Selection With Tag"
 			],
 			[
 				"REIN",
@@ -641,10 +641,6 @@
 			[
 				"togg",
 				"Toggle Comment"
-			],
-			[
-				"wr",
-				"HTML: Wrap Selection With Tag"
 			],
 			[
 				"sa",
@@ -719,7 +715,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 458.0
+		"width": 498.0
 	},
 	"console":
 	{
@@ -736,6 +732,15 @@
 	},
 	"file_history":
 	[
+		"/D/my/dgcv/app/scripts/main.js",
+		"/D/my/dgcv/app/styles/main.scss",
+		"/D/my/dgcv/app/index.html",
+		"/D/my/dgcv/bower_components/slabText/js/jquery.slabtext.js",
+		"/D/my/dgcv/app/scripts/hs.js",
+		"/D/my/dgcv/bower_components/slabText/.bower.json",
+		"/D/my/dgcv/bower_components/semantic/.bower.json",
+		"/D/my/dgcv/gulpfile.js",
+		"/D/vodafone-online-channel-front/entorno_v0.1/core/assets/css/idangerous.swiper.css",
 		"/D/VF_MAQUETACION_REPO/core/layouts/commons/head.hbs",
 		"/D/vodafone-online-channel-front/entorno_v0.1/core/layouts/commons/head.hbs",
 		"/D/vodafone-online-channel-front/entorno_v0.1/core/layouts/helpers/handlebars-custom-partials.js",
@@ -854,16 +859,7 @@
 		"/D/vodafone-online-channel-front/entorno_v0.1/core/assets/js/01_legacy/local_es.js",
 		"/D/vodafone-online-channel-front/local/carousel_financing/core/assets/ds2/js/core_ds2.js",
 		"/D/vodafone-online-channel-front/entorno_v0.1/core/assets/js/01_legacy/video_es.js",
-		"/D/vodafone-online-channel-front/entorno_v0.1/core/assets/js/01_legacy/util_es.js",
-		"/D/vodafone-online-channel-front/entorno_v0.1/core/assets/js/01_legacy/youtube_es.js",
-		"/D/vodafone-online-channel-front/local/carousel_financing/core/assets/js/main.min.js",
-		"/D/vodafone-online-channel-front/local/carousel_financing/core/assets/sass/global/_toggle-tooltip.scss",
-		"/D/vodafone-online-channel-front/entorno_v0.1/core/scss/02_vodafone.es/_toggle-tooltip-es.scss",
-		"/D/vodafone-online-channel-front/local/carousel_financing/core/assets/sass/style.scss",
-		"/D/vodafone-online-channel-front/entorno_v0.1/core/assets/js/01_legacy/herobanner_es.js",
-		"/D/vodafone-online-channel-front/local/carousel_financing/core/assets/local/js/jquery_no_conflict.js",
-		"/D/vodafone-online-channel-front/local/carousel_financing/core/assets/local/js/header_es.js",
-		"/D/vodafone-online-channel-front/entorno_v0.1/core/assets/js/01_legacy/header_nav_es.js"
+		"/D/vodafone-online-channel-front/entorno_v0.1/core/assets/js/01_legacy/util_es.js"
 	],
 	"find":
 	{
@@ -871,7 +867,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 92.0,
 		"where_history":
 		[
 			"D:\\vodafone-online-channel-front\\entorno_v0.1\\deploy-ucm",
@@ -943,6 +939,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"hsjs",
+			"200/200",
 			"word-spacing",
 			"cssfilesNew",
 			"static",
@@ -1068,9 +1066,7 @@
 			"assets/css/img-es/",
 			"../static/img/lazy.gif",
 			"chips",
-			"es-customer",
-			"es-radio",
-			"nm"
+			"es-customer"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1091,86 +1087,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "app/index.html",
-					"settings":
-					{
-						"buffer_size": 1998,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								513,
-								513
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"colorcode": true,
-							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 45.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1223,6 +1141,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"inde",
+				"app/index.html"
+			],
 			[
 				"a_m",
 				"core/layouts/pages/reference/_a_m.hbs"
@@ -1597,7 +1519,7 @@
 		[
 			[
 				"",
-				"/D/my/ng2edu/ng2edu.sublime-project"
+				"/D/vodafone-online-channel-front/entorno_v0.1/e01.sublime-project"
 			]
 		],
 		"width": 380.0
